@@ -7,6 +7,25 @@
 /* Example: CSS class name to center align the content . */
 .centered-content {
   margin: 0 auto;
-  max-width: 250px;
+  height: 100% !important;
+}
+
+.tab {
+  margin: calc(var(--lumo-size-s) / 3) 0 calc(var(--lumo-size-s) / 3) calc(var(--lumo-size-s) / 3) !important;
+  background-color: skyblue;
+  width: 275px;
+  padding: 2px !important;
+}
+
+.drawer {
+  width: auto !important;
+  background-color: #82ba00;
+}
+
+.tab > * {
+  background-color: white;
+  margin: 0 !important;
+  width: 80%;
+  color: black;
 }
 
